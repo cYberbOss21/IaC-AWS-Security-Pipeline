@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+VENV/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# Checkov output
+checkov_results.json
+
+# Jira secrets
+.jira_secrets.env
+
+# AWS credentials (if used)
+*.pem
+
+# System files
+.DS_Store

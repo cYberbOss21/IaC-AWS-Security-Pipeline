@@ -1,0 +1,3 @@
+Checkov ID,Misconfiguration,MITRE ATT&CK ID,Tactic,Technique,CIS Benchmark,CIS Description
+CKV_AWS_24,Security group allows 0.0.0.0/0 to port 22,T1021.004,Lateral Movement,Remote Services: SSH,4.1,Ensure no security groups allow unrestricted ingress access to port 22
+CKV_AWS_23,Security group rule lacks description,T1609,Defense Evasion,Container Administration Command,5.1,Ensure descriptions are provided for all security groups

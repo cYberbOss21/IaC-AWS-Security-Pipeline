@@ -1,0 +1,26 @@
+[
+  {
+    "check_id": "CKV_AWS_24",
+    "check_name": "Ensure no security groups allow ingress from 0.0.0.0/0 to port 22",
+    "file_path": "/main.tf",
+    "file_line_range": [
+      5,
+      12
+    ],
+    "resource": "aws_security_group.insecure_sg",
+    "check_type": "terraform",
+    "guideline": "https://docs.bridgecrew.io/docs/networking_1"
+  },
+  {
+    "check_id": "CKV_AWS_23",
+    "check_name": "Ensure every security group rule has a description",
+    "file_path": "/main.tf",
+    "file_line_range": [
+      14,
+      19
+    ],
+    "resource": "aws_security_group.insecure_sg",
+    "check_type": "terraform",
+    "guideline": "https://docs.bridgecrew.io/docs/bc_aws_networking_23"
+  }
+]
